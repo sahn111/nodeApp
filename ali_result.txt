@@ -1,0 +1,75 @@
+
+------------------------------------------------ 1678098865011
+Hello ali !
+
+
+In this txt file you will find your data in very readable style.
+
+
+According to your name, you are probably 51 years old male.
+
+
+It might not very accurate I know its very sad.
+
+            
+The probability of being male is 0.94.
+
+
+But let's look at possible countries!
+
+        
+ You are from IR with probability 0.17
+ You are from TR with probability 0.071
+ You are from PK with probability 0.062
+ You are from SA with probability 0.059
+ You are from IQ with probability 0.056
+
+------------------------------------------------ 1678099006871
+Hello ali !
+
+
+In this txt file you will find your data in very readable style.
+
+
+According to your name, you are probably 51 years old male.
+
+
+It might not very accurate I know its very sad.
+
+            
+The probability of being male is 0.94.
+
+
+But let's look at possible countries!
+
+        
+ You are from IR with probability 0.17
+ You are from TR with probability 0.071
+ You are from PK with probability 0.062
+ You are from SA with probability 0.059
+ You are from IQ with probability 0.056
+
+------------------------------------------------ 1678099116611
+Hello ali !
+
+
+In this txt file you will find your data in very readable style.
+
+
+According to your name, you are probably 51 years old male.
+
+
+It might not very accurate I know its very sad.
+
+            
+The probability of being male is 0.94.
+
+
+But let's look at possible countries!
+
+        
+ You are from IR with probability 0.17
+ You are from TR with probability 0.071
+ You are from PK with probability 0.062
+ You are from SA with probability 0.059
+ You are from IQ with probability 0.056

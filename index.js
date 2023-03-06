@@ -19,7 +19,6 @@ class resultModel {
     }
 
     saveAsCSV() {
-        console.log(this.agify_response)
         let csv = `
 ------------------------------------------------ ${Date.now()}
 Hello ${this.name} !
@@ -57,12 +56,14 @@ async function welcome(){
     );
 
     await sleep();
-    rainbowTitle.stop();
+    const karaokeText = chalkAnimation.neon(
+        "This is a basic command line application for you. It will take a name and use it different APIs. Let's see the result!"
+    );
 
-    console.log(`
-        ${chalk.bgBlue("How to play?")}
-        I am process on your computer
-    `);
+    await sleep();
+
+    rainbowTitle.stop();
+    karaokeText.stop();
 }
 
 async function askName(){
@@ -79,29 +80,34 @@ async function askName(){
 }
 
 async function question1(){
+    
     const answers = await inquirer.prompt({
         name: 'question1',
         type: 'list',
         message: 'Select output type please!',
         choices: [
-            ' CSV ',
+            ' TEXT ',
             ' Command line ',
             ' I want nothing from you! ',
         ],
     });
-
-    if (answers.question1 == ' CSV '){
+    const spinner = createSpinner('As you wish...').start();
+    await sleep();
+    if (answers.question1 == ' TEXT '){
+        spinner.success({ text: `Text file is created succesfully.`});        
         return "csv";
     }else if (answers.question1 == ' I want nothing from you! '){
+        spinner.error({ text: `Ups.`});
         return "mail";
     }else{
+        spinner.success({ text: `There there`});
         return "print";
     }
 }
 
 async function fetchAllData() {
 
-    const spinner = createSpinner('Checking answer...').start();
+    const spinner = createSpinner('Sending requests...').start();
     const [result1, result2, result3] = await Promise.all([
       axios.get(`https://api.agify.io?name=${playerName}`),
       axios.get(`https://api.genderize.io?name=${playerName}`),
