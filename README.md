@@ -2,7 +2,7 @@
 
 ## How to use?
 
-This application will run on your computer. You will be able to download this application via <b>npx</b>.
+This application will run on your computer. You can download this application via <b>npm install nodetlapp-basic</b>.
 
 ## How its work?
 
